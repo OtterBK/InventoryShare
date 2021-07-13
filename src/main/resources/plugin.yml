@@ -1,0 +1,19 @@
+name: InventoryShare
+version: ${project.version}
+main: inventoryshare.inventoryshare.InventoryShare
+api-version: 1.16
+commands:
+  invenshare:
+    description: share command
+    aliases:
+    - ishare
+    - invshare
+    permission: op.invenshare
+    permission-message: 권한이 부족합니다.
+    usage: /<command> [nickname]
+  제한:
+    description: share command
+    aliases:
+    permission: op.제한
+    permission-message: 권한이 부족합니다.
+    usage: /<command> [칼/도끼/괭이/곡괭이/망치/삽]
